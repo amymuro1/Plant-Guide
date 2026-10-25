@@ -1,0 +1,331 @@
+
+
+
+
+.site-nav {
+  background-color: #f8f5f0;
+  border-bottom: 2px solid #e6ded6;
+  padding: 0.75rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav a {
+  color: #2e6f40; /* Plant green color */
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Hover effect for interactivity */
+.site-nav a:hover {
+  background-color: #eaf3ed;
+  color: #1b4332;
+}
+
+h1{
+font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #073101c5;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centered-p {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif, cursive, sans-serif;
+  width: 100vw;               
+  max-width: 100%;            
+  box-sizing: border-box;     
+  
+  background-color: #3d6a45;  
+  color: #eaf3ed;             
+  
+  text-align: center;         
+  padding: 1.25rem 1rem;      
+  margin: 2rem 0 0 0;        
+}
+.first-paragraph{
+    color: #3a2600c5;
+    font-family: Georgia, 'Times New Roman', Times, serif, cursive, sans-serif;
+    font-size: 1.2rem;
+}
+.first-paragraph2{
+        color: #3a2600c5;
+    font-family: Georgia, 'Times New Roman', Times, serif, cursive, sans-serif;
+    font-size: 1.2rem;
+  
+}
+.first-paragraph3{
+        color: #3a2600c5;
+    font-family: Georgia, 'Times New Roman', Times, serif, cursive, sans-serif;
+    font-size: 1.2rem;
+}
+.first-paragraph,
+.first-paragraph2,
+.first-paragraph3 {
+  display:block;
+  width:100%;
+  background-color: #f8f5f0;             /* Subtle warm background pattern/tone */
+  border: 1px solid #e6ded6;             /* Soft border matching your theme */
+  border-top: 4px solid #8c5e3c;         /* Terracotta top accent bar */
+  padding: 1.25rem .75rem;
+  border-radius: 8px;                    /* Rounded corners */
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.05rem;
+  color: #3a2600c5;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03); /* Subtle depth */
+  box-sizing: border-box;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: 0; 
+}
+.first-paragraph:hover,
+.first-paragraph2:hover,
+.first-paragraph3:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.questions-container {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1.25rem;
+  max-width: 800px;
+  width:100%;
+  margin: 1.5rem auto 2.5rem auto;
+  padding:0 1rem;
+  box-sizing: border-box;
+}
+
+.content-container {
+  max-width: 900px;      
+  margin: 0;          
+  padding: 0 1rem;
+}
+.featured-image {
+  display: block;            
+  margin-left: auto;        
+  margin-right: auto;        
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+  width: 100%;              
+  max-width: 800px;         
+  height: auto;              
+  border-radius: 8px;        
+}
+
+h2{
+  color: #3a2600c5;
+ font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #e6ded6;
+}
+h3{}
+ul {
+  list-style: none; 
+  padding-left: 0;
+}
+ul li {
+  background-color: #f8f5f0;
+  border-left: 4px solid var(--green-primary);
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 0.75rem;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+ul li strong {
+  color: var(--brown-accent );
+}
+.image-gallery {
+  display: grid;             /* Places child elements side-by-side */
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;               /* Adds breathing room between the two images */
+  max-width: 900px;          /* Matches your site's content container width */
+  margin: 2rem auto;         /* Centers the image pair horizontally on the page */
+  padding: 0 1rem;           /* Prevents touching screen edges on mobile */
+}
+
+.image-gallery img {                 
+  width: 50%;                /* Sets base width for each photo */
+  height: 300px;             /* Sets a uniform height for both photos */
+  object-fit: cover;         /* Crops photos neatly without stretching or distorting */
+  border-radius: 8px;        /* Adds soft rounded corners to match your design */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Optional subtle drop shadow */
+}
+.plant-list {
+  list-style: none;          /* Removes default browser bullets */
+}
+
+.plant-list li {
+  position: relative;
+  padding-left: 1.8rem;      /* Creates space on the left for the emoji */
+  margin-bottom: 0.75rem;
+  background-color: #f8f5f0; 
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-right: 1.2rem;
+  border-radius: 0 8px 8px 0; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+/* Places the sprout emoji safely using ::before instead of ::marker */
+.plant-list li::before {
+  content: "🌱 ";
+  position: absolute;
+  left: 0.6rem;              /* Positions the emoji nicely inside the padding */
+  top: 0.8rem;
+}
+
+.centered-p2{
+    text-align: center;}
+    .tip-box {
+        text-align: center;                     
+        font-family: Comfortaa, cursive, sans-serif;
+  background-color: #f8f5f0;             
+  border-left: 5px solid #8c5e3c;        
+  padding: 1rem 1.25rem;                 
+  margin: 1.5rem 0;                      
+  border-radius: 0 8px 8px 0;            
+}
+
+.tip-box strong {
+  color: #8c5e3c;  }     
+
+  .end-image {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+}
+.subscribe-container {
+  background-color: #f8f5f0;          
+  border: 1px solid #e2dad2;           
+  border-radius: 16px;                 
+  padding: 2rem;
+  text-align: center;
+  max-width: 500px;
+  margin: 3rem auto;                   
+  box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+}
+
+.subscribe-container h3 {
+  color: #2e6f40;                      
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.subscribe-container p {
+  color: #5a635a;                      
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Form Layout */
+.subscribe-form {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;                     
+}
+
+/* Email Input Field */
+.subscribe-form input[type="email"] {
+  padding: 0.75rem 1rem;
+  border: 1px solid #c4a482;           
+  border-radius: 25px;                 
+  font-size: 0.95rem;
+  outline: none;
+  flex: 1;
+  min-width: 200px;
+  background-color: #ffffff;
+  color: #2b332b;
+  transition: border-color 0.2s ease;
+}
+
+.subscribe-form input[type="email"]:focus {
+  border-color: #2e6f40;               /* Green highlight when typing */
+}
+
+/* Cute Button Styling */
+.subscribe-form button {
+  background-color: #8c5e3c;           /* Warm terracotta brown */
+  color: #ffffff;                      /* White text */
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;                 /* Pill-shaped button */
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;          /* Smooth animation for hover */
+  box-shadow: 0 3px 8px rgba(140, 94, 60, 0.25);
+}
+.subscribe-form button:hover {
+  background-color: #2e6f40;           /* Shifts to leaf green on hover */
+  transform: translateY(-2px);         /* Slight floating lift effect */
+  box-shadow: 0 5px 12px rgba(46, 111, 64, 0.3);
+}
+
+.subscribe-form button:active {
+  transform: translateY(0);            /* Presses back down when clicked */
+}
+@media (max-width: 768px) {
+  .first-paragraph,
+  .first-paragraph2,
+  .first-paragraph3 {
+    display: block;
+    width: 100%;
+    font-size: 0.75rem;
+  }
+.image-gallery {
+grid-template-columns: 1fr;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: 220px;
+}
+.end-image {
+  width: 100%;
+}
+h1 {
+  font-size: 2rem;
+}
+.site-nav ul {
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align:center;
+}
+.site-nav a{
+  display:block;
+  width: 100%;
+  padding:.75rem 0;
+}
+.questions-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .75rem;
+}
+}
